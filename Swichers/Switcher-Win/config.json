@@ -2,12 +2,12 @@
   "log_level": "debug",
   "rules": [
     {
-      "name": "maxvm",
-      "listen": ":2527",
+      "name": "name",
+      "listen": "0.0.0.0:2222",
       "blacklist": null,
       "targets": [
         {
-          "address": "localhost:2525"
+          "address": "172.31.233.188:12221"
         }
       ]
     }
