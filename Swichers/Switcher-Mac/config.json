@@ -1,0 +1,15 @@
+{
+  "log_level": "debug",
+  "rules": [
+    {
+      "name": "name",
+      "listen": "0.0.0.0:2222",
+      "blacklist": null,
+      "targets": [
+        {
+          "address": "172.31.233.188:12221"
+        }
+      ]
+    }
+  ]
+}
